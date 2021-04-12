@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding: 20px 10px;
+    background: linear-gradient(to right, rgb(61, 61, 140), rgb(96, 96, 156));
+}
+
+header{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#title{
+    font-size: 2rem;
+}
+
+#description{
+    font-weight: 200;
+    font-style: italic;
+}
+
+form{
+    width: 55%;
+    margin: 0 auto;
+    background-color: #262646;
+    color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 1.1rem;
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#submit,
+textarea{
+    width: 100%;
+    font-size: 1rem;
+    padding: 9px 15px;
+    margin-top: 5px;
+    outline: transparent;
+    border: none;
+    border-radius: 5px;
+}
+
+.name,
+.email,
+.age,
+.role,
+.recommend,
+.feature,
+.improvement,
+.button{
+    margin-bottom: 25px;
+}
+
+input[type=checkbox],
+input[type=radio]{
+    margin: 10px 0;
+}
+
+span{
+    font-size: 0.9rem;
+}
+
+textarea{
+    margin: 10px 0 20px 0;
+}
+
+button{
+    font-size: 1rem;
+    color: #fff;
+    background-color: #37AF65;
+}
+
+@media screen and (max-width: 1100px) {
+    form{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #title{
+        font-size: 1.5rem;
+    }
+    
+    #description{
+        font-size: 1rem;;
+    }
+
+    form{
+        width: 95%;
+        padding: 50px 30px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #description{
+        font-size: 0.9rem;;
+    }
+
+    form{
+        width: 100%;
+        padding: 40px 20px;
+    }
+}
